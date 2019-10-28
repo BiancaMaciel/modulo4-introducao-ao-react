@@ -11,3 +11,6 @@
 - Propriedades do React;
 - Default Props & PropTypes;
 - Ciclo de vida do componente;
+
+ 
+![alt text](modulo4.png)
