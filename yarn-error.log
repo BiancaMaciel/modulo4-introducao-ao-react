@@ -1,0 +1,41 @@
+Arguments: 
+  /home/mb1801/.nvm/versions/node/v10.16.3/bin/node /home/mb1801/.nvm/versions/node/v10.16.3/bin/yarn add @babel/core @babel/preset-env @babel/present-react webpack webpack-cli -D
+
+PATH: 
+  /home/mb1801/.nvm/versions/node/v10.16.3/bin:/home/mb1801/Library/Android/sdk/platform-tools:/home/mb1801/Library/Android/sdk/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/yarn-[version]/bin:/home/mb1801/Android/Sdk/tools:/home/mb1801/Android/Sdk/platform-tools:/opt/gradle/gradle-5.6.2/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  10.16.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@babel%2fpresent-react: Not found
+      at Request.params.callback [as _callback] (/home/mb1801/.nvm/versions/node/v10.16.3/lib/node_modules/yarn/lib/cli.js:66926:18)
+      at Request.self.callback (/home/mb1801/.nvm/versions/node/v10.16.3/lib/node_modules/yarn/lib/cli.js:140564:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (/home/mb1801/.nvm/versions/node/v10.16.3/lib/node_modules/yarn/lib/cli.js:141536:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (/home/mb1801/.nvm/versions/node/v10.16.3/lib/node_modules/yarn/lib/cli.js:141458:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1145:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "modulo4-react",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
